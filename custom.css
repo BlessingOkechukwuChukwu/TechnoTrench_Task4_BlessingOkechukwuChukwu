@@ -1,0 +1,142 @@
+/* Modern Custom CSS for Phishing Simulation Pages */
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --background-color: #ecf0f1;
+    --text-color: #34495e;
+    --error-color: #e74c3c;
+    --success-color: #2ecc71;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 40px;
+  }
+  
+  /* Form Styles */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Email Template Styles */
+  .email-content {
+    line-height: 1.8;
+  }
+  
+  .email-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  .footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #7f8c8d;
+  }
+  
+  /* Training Page Styles */
+  .training-list {
+    padding-left: 20px;
+  }
+  
+  .training-list li {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .training-list li::before {
+    content: "✓";
+    color: var(--success-color);
+    position: absolute;
+    left: -20px;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    
+    .card {
+      padding: 20px;
+    }
+    
+    .header h1 {
+      font-size: 24px;
+    }
+  }
+  .img{
+    height: 50%;
+  }
